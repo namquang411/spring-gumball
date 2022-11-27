@@ -21,9 +21,6 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-    # Make sure gradle wrapper is executable
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradlew
 
     # The "Build with Gradle" step does a build using the gradle/gradle-build-action 
     # action provided by the Gradle organization on GitHub. The action takes care of 
