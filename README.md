@@ -57,79 +57,79 @@ jobs:
 ```
 2. Result
 
-![gradle](https://github.com/namquang411/spring-gumball/tree/main/image/gradle-action.png)
+![gradle](https://github.com/namquang411/spring-gumball/blob/main/image/gradle-action.png)
 
 
 # Part 2 CD-Workflow
 
 1. Create Cluster
 
-![cluster](https://github.com/namquang411/spring-gumball/tree/main/image/cluster.png)
+![cluster](https://github.com/namquang411/spring-gumball/blob/main/image/cluster.png)
 
 2. Confirm API work
 
-![api](https://github.com/namquang411/spring-gumball/tree/main/image/api-ready.png)
+![api](https://github.com/namquang411/spring-gumball/blob/main/image/api-ready.png)
 
 3. Dashboard - Project ID
 
-![dashboard](https://github.com/namquang411/spring-gumball/tree/main/image/dashboard.png)
+![dashboard](https://github.com/namquang411/spring-gumball/blob/main/image/dashboard.png)
 
 4. Create Service acc
 
-![service](https://github.com/namquang411/spring-gumball/tree/main/image/service-acc.png)
+![service](https://github.com/namquang411/spring-gumball/blob/main/image/service-acc.png)
 
 5. Success create service
 
-![suc](https://github.com/namquang411/spring-gumball/tree/main/image/success-service.png)
+![suc](https://github.com/namquang411/spring-gumball/blob/main/image/success-service.png)
 
 6. Add grant access
 
-![add](https://github.com/namquang411/spring-gumball/tree/main/image/access.png)
+![add](https://github.com/namquang411/spring-gumball/blob/main/image/access.png)
 
 7. Success add access
 
-![suc-add](https://github.com/namquang411/spring-gumball/tree/main/image/success-add.png)
+![suc-add](https://github.com/namquang411/spring-gumball/blob/main/image/success-add.png)
 
 8. New-Key
 
-![new](https://github.com/namquang411/spring-gumball/tree/main/image/new-key.png)
+![new](https://github.com/namquang411/spring-gumball/blob/main/image/new-key.png)
 
 9. Download key
 
-![down](https://github.com/namquang411/spring-gumball/tree/main/image/downloaded.png)
+![down](https://github.com/namquang411/spring-gumball/blob/main/image/downloaded.png)
 
 10. Key
 
-![key](https://github.com/namquang411/spring-gumball/tree/main/image/key.png)
+![key](https://github.com/namquang411/spring-gumball/blob/main/image/key.png)
 
 11. Create secret GKE
 
-![gke](https://github.com/namquang411/spring-gumball/tree/main/image/gke.png)
+![gke](https://github.com/namquang411/spring-gumball/blob/main/image/gke.png)
 
 12. Create Release
 
-![rel](https://github.com/namquang411/spring-gumball/tree/main/image/realease.png)
+![rel](https://github.com/namquang411/spring-gumball/blob/main/image/realease.png)
 
 13. Success Release
 
-![suc-re](https://github.com/namquang411/spring-gumball/tree/main/image/suc-rel.png)
+![suc-re](https://github.com/namquang411/spring-gumball/blob/main/image/suc-rel.png)
 
 14. Complete Release - 2.0 I put wrong code in google.yml, then I fix it and this one is running success
 
-![com](https://github.com/namquang411/spring-gumball/tree/main/image/complete-release.png)
+![com](https://github.com/namquang411/spring-gumball/blob/main/image/complete-release.png)
 
 15. Workloads
 
-![work](https://github.com/namquang411/spring-gumball/tree/main/image/workload.png)
+![work](https://github.com/namquang411/spring-gumball/blob/main/image/workload.png)
 
 16. Service
 
-![service](https://github.com/namquang411/spring-gumball/tree/main/image/service.png)
+![service](https://github.com/namquang411/spring-gumball/blob/main/image/service.png)
 
 17. Create Ingress
 
-![ingress](https://github.com/namquang411/spring-gumball/tree/main/image/ingress.png)
+![ingress](https://github.com/namquang411/spring-gumball/blob/main/image/ingress.png)
 
 18. GKE worked
 
-![finish](https://github.com/namquang411/spring-gumball/tree/main/image/finished.png)
+![finish](https://github.com/namquang411/spring-gumball/blob/main/image/finished.png)
