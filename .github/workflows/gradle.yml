@@ -21,13 +21,14 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradle
     # The "Build with Gradle" step does a build using the gradle/gradle-build-action 
     # action provided by the Gradle organization on GitHub. The action takes care of 
     # invoking Gradle, collecting results, and caching state between jobs. 
     # For more information, See: https://github.com/gradle/gradle-build-action.      
     - name: Build with Gradle
-      run: ./gradle build
+      run: gradle build
     # List the Build output folder to confirm JAR file was built
     - name: Build Result
       run: ls build/libs
