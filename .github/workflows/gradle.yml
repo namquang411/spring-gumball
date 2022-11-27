@@ -21,17 +21,10 @@ jobs:
       with:
         java-version: '11'
         distribution: 'temurin'
-    - name: Grant execute permission for gradlew
-      run: chmod +x gradle
-    # The "Build with Gradle" step does a build using the gradle/gradle-build-action 
-    # action provided by the Gradle organization on GitHub. The action takes care of 
-    # invoking Gradle, collecting results, and caching state between jobs. 
-    # For more information, See: https://github.com/gradle/gradle-build-action.      
     - name: Build with Gradle
-      run: gradle build
-    # List the Build output folder to confirm JAR file was built
-    - name: Build Result
-      run: ls build/libs
+      uses: gradle/gradle-build-action@67421db6bd0bf253fb4bd25b31ebb98943c375e1
+      with:
+        arguments: build
 
     # Gradle will usually create output files like JARs, EARs, or WARs in the build/libs directory. 
     # You can upload the contents of that directory using the upload-artifact action.
